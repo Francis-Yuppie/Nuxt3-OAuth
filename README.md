@@ -34,7 +34,7 @@ The key directories for this auth demo is the pages, components, Prisma and the 
         
 ```
 
-## nuxt.config.ts
+## [...].ts
 
 ```TypeScript
 
