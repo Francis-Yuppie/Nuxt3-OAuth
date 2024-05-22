@@ -15,6 +15,9 @@ export default NuxtAuthHandler({
     adapter: PrismaAdapter(prisma),
     secret: 'ss',
     providers: [
+
+        // Uncomment the code for Github Auth to work
+
         // //@ts-expect-error
         // GithubProvider.default({
         //     clientId: useRuntimeConfig().gitHubId,
